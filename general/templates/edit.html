@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+<title>Edit </title>
+{% endblock%}
+
+
+{% block content %}
+<div class="group">
+    <h1 style="text-align: center;">Edit post </h1>
+
+    <form action="" method="POST">
+        <textarea class="form-control" id="text" name="text"  rows="7"  >
+           {{post.text}}
+        </textarea>
+        
+        <br>
+        <a href="/home"><button type="submit" class="btn btn-primary" >Save</button></a>
+        <br>
+        <a href="/home"><button style="background-color: black;" class="btn btn-primary">Back Home</button></a>
+     
+    </form>
+
+    <br>
+</div>
+
+{% endblock%} 

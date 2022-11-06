@@ -1,0 +1,31 @@
+{% extends "base.html" %} 
+
+
+
+
+<div class="box">
+    <div class="ibox">
+        <a href="/user/{{post.user.username}}">{{post.user.username}}</a>
+        {% if user.id == post.author %}
+        <div class="btn-group">
+         <a href="/edit/{{post.id}}" class="pbtn1">Edit</a>
+         <a href="/delete-post/{{post.id}}"  class="pbtn2">Delete </a> 
+        </div>
+    {% endif %}
+    </div>
+    <div class="boxbody">
+        <div class="boxtext">
+            {{post.text}}
+        </div>
+    </div>
+    <div class="boxbottom">
+        <hr>
+        {{post.posted_on}}
+        
+    </div>
+</div>
+
+{% block footer %} 
+<a style=" justify-content: center; align-items:center;" href="/new_post"><button type="submit"   class="btn btn-primary" >Back</button></a>
+
+{% endblock %}

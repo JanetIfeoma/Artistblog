@@ -1,0 +1,17 @@
+Flask
+flask sqlalchemy
+werkzeug
+SQLAlchemy
+Jinja2
+Flask-login
+
+
+
+
+
+
+
+
+
+
+

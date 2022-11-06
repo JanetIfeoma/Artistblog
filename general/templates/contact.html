@@ -1,0 +1,25 @@
+{% extends "base.html" %} 
+{% block title %}Contact{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="group">
+        <h3 style="text-decoration: underline; text-decoration-thickness: 5px; text-decoration-color: rgb(171, 119, 230)">Contact Us</h3>
+      <form action="" class="">
+        <label for="email">Name</label>
+        <input type="text"  name="name" id="name" class="form" placeholder="Enter Name" >
+
+        <label for="email">Email Address</label>
+        <input type="email"  name="email" id="email" class="form" placeholder="Enter Email" >
+
+        <label for="email">Phone Number</label>
+        <input type="number"  name="pnumber" id="pnumber" class="form" placeholder="Enter Phone Number" >
+
+        <label for="email">Message</label>
+<textarea   name="message" id="message" class="form" cols="30" placeholder="Enter message...." rows="30"></textarea>
+
+<a href="/home"><button style="background-color: black;" class="btn btn-primary">Send</button></a>
+
+       </form>
+    </div>
+</div>
+{% endblock %}

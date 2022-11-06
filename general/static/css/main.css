@@ -1,0 +1,189 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+     font-family: 'Syne', sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+   
+    transition: 1s linear;
+    
+}
+
+body{
+    scroll-behavior: smooth;
+    
+}
+
+h3{
+  
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+   padding-top: 30px;
+   text-transform: none;
+}
+.container{
+    margin: 10px;
+}
+.group{
+    margin: 50px;
+padding: 20px;
+font-size: 15px;
+font-weight:500;
+
+
+}
+
+#email, #username, #password, #cpassword, #pnumber,#name,#message{
+    width: 100%;
+    height: 38px;
+    border: 1px solid rgb(180, 177, 177);
+    border-radius: 6px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    outline: none;
+}
+
+
+
+#agree{
+    margin-right: 6px;
+}
+
+.btnn{
+    border: none;
+    background-color:rgb(144, 75, 255);
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+color: whitesmoke;
+
+border-radius: 3px;
+}
+
+.btnn:hover{
+    color: rgb(21, 12, 59) ;
+    background-color:rgb(181, 134, 255);
+    box-shadow: 3px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.allposts{
+  text-transform: capitalize;
+}
+
+.box{
+border: 2px solid rgba(175, 126, 255, 0.411);
+border-radius: 10px ;
+padding: 20px;
+margin: 50px 20px;
+box-shadow: 3px 5px 14px rgba(0, 0, 0, 0.2);
+}
+
+.pbtn1{
+    position: absolute;
+    left: 66rem;
+    top: -20px;
+    background-color:  rgba(238, 246, 251, 0.765);
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 600;
+color: rgb(31, 102, 255);
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pbtn2{
+    position: absolute;
+    left: 60rem;
+    top: -20px;
+    background-color:rgba(255, 244, 242, 0.765);
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 600;
+color: rgb(255, 28, 16);
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+.pbtn1:hover:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+   
+ .pbtn2:hover{
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media query*/
+@media(max-width:1100px){
+    
+    
+.pbtn1{
+    left: 30rem;
+    top: -20px;
+}
+
+.pbtn2{
+    left: 36rem;
+    top: -20px;
+   
+
+}
+  
+}
+@media(max-width:499px){
+    
+    
+    .pbtn1{
+        left: 8rem;
+        top: -20px;
+    }
+    
+    .pbtn2{
+        left: 12rem;
+        top: -20px;
+       
+    
+    }
+      
+    }
+
+
+       
+    
+
+      
